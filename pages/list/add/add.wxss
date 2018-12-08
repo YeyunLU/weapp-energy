@@ -1,0 +1,4 @@
+/* pages/list/add/add.wxss */
+.btn{
+  padding:20rpx 20rpx
+}

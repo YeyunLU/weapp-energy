@@ -1,0 +1,17 @@
+/* pages/index/index.wxss */
+
+page {
+  font-family: Helvetica, Tahoma, "Microsoft YaHei", "PingFang SC", sans-serif;
+  background-color: #0101;
+  font-size-adjust:2ch;
+}
+
+
+.container {
+  padding: 80rpx 30rpx;
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+<view class="container">
+
+  <view class="img">
+     <image src="../../images/energy.jpg"    mode="widthFix" 
+       style="width:100%"></image>
+  </view>
+ 
+     <view calss="txt">
+      <text>美国著名的精神科医师、哲学博士大卫·R·霍金斯博士（David R.Hawkins Ph.D)发现人类各种不同的意识层次都有其相对应的能量指数，人的身体会随着精神状况而有强弱的起伏。</text>
+      </view>
+
+</view>

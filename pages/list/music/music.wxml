@@ -1,0 +1,32 @@
+
+<view class="container">
+
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="audio" id="0">
+   
+     <image src="../../../images/nature.jpg"  mode="widthFix" style="width:100%"></image>
+    
+      <text class="txt">自然</text>
+    </view>
+
+ 
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="audio" id="1">
+
+      <image src="../../../images/religion.jpg" mode="widthFix" style="width:100%"></image>
+     
+      <text class="txt">宗教</text>
+    </view>
+   
+<view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="audio"  id="2">
+
+     <image src="../../../images/instrument.jpg" mode="widthFix" style="width:100%" ></image>
+   
+      <text class="txt">轻音乐</text>
+    </view>
+
+ <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="audio" id="3">
+
+       <image src="../../../images/popular.jpg" mode="widthFix" style="width:100%"></image>
+      
+      <text class="txt">歌曲伴奏</text>
+    </view>
+ </view>

@@ -1,0 +1,17 @@
+/* pages/index/index.wxss */
+
+
+.container {
+  padding: 40rpx 30rpx;
+}
+
+.img{
+  margin:20rpx 20rpx;
+
+}
+
+
+.txt {
+  margin-top: 30rpx;
+}
+

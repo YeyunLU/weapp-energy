@@ -1,0 +1,22 @@
+/* pages/list/improve/improve.wxss */
+.pages{
+  padding:30rpx 20rpx;
+}
+
+.txt1{
+   color:red
+}
+
+.txt2{
+  color:orange
+
+}
+
+.txt3{
+  color:green
+
+}
+
+.txt4{
+  color:blue
+}

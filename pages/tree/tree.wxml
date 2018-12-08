@@ -1,0 +1,20 @@
+ <view class="row flex">
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="test">
+      <text class="iconfont icon-test"></text>
+      <text class="txt">能量测试</text>
+    </view>
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="improve">
+      <text class="iconfont icon-up"></text>
+      <text class="txt">能量进阶</text>
+    </view>
+  </view>
+  <view class="row flex">
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="tool">
+      <text class="iconfont icon-tool"></text>
+      <text class="txt">高效工具</text>
+    </view>
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="passage">
+      <text class="iconfont icon-article"></text>
+      <text class="txt">文章精选</text>
+    </view>
+  </view>

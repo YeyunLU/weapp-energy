@@ -1,0 +1,13 @@
+/* pages/test/test.wxss */
+.container {
+  padding: 80rpx 20rpx;
+}
+
+.txt{
+  font-size:15px;
+}
+
+.page__title{
+  font-size:17px;
+  margin-bottom:30rpx;
+}

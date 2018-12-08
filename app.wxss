@@ -1,0 +1,99 @@
+/*** 定义字体为微软雅黑、苹方 ***/
+@import "weui.wxss"
+
+page {
+  font-family: Helvetica, Tahoma, "Microsoft YaHei", "PingFang SC", sans-serif;
+  background-color: #ebebeb;
+}
+
+/*** 弹性布局 ***/
+
+.flex {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-x {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.flex-y {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.flex-xy {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.flex-column {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-grow-1 {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+/*** 字体图标库(ttp://www.iconfont.cn/plus) ***/
+
+@font-face {font-family: "iconfont";
+  src: 
+  url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tool:before { content: "\e614"; font-size: 40px;
+  color: #5FB7EB; }
+
+.icon-up:before { content: "\e9c5"; font-size: 40px;
+  color: #5FB7EB;}
+
+.icon-test:before { content: "\e61a";  font-size: 40px;
+  color: #5FB7EB; }
+
+.icon-article:before { content: "\e61e";  font-size: 40px;
+  color: #5FB7EB; }
+
+.icon-diary:before { content: "\e606";   font-size: 40px;
+  color: #5FB7EB;}
+
+.icon-move:before { content: "\e611";   font-size: 40px;
+  color: #5FB7EB;}
+
+.icon-music:before { content: "\e7b8";  font-size: 40px;
+  color: #5FB7EB;}
+
+.icon-call:before { content: "\e64b";   font-size: 40px;
+  color: #5FB7EB;}
+
+
+
+
+
+
+
+

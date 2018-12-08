@@ -1,0 +1,14 @@
+
+    <view class="section__title">日期:</view>
+    <input bindinput="AddDate" value="{{date}}" placeholder="2018年9月1日" />
+
+
+   
+    <view class="section__title">与自己说说话：</view>
+    <textarea bindinput="AddContent" value="{{content}}" placeholder="一切都会好的" />
+
+
+  <view class="btn">
+  <button size="default" type="default" bindtap="baocun">保存</button>
+  </view>
+

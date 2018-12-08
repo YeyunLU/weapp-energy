@@ -1,0 +1,9 @@
+<view class="btn">
+ 
+ <view wx:for="{{calls}}">
+    <button size="default" bindtap="editting">{{item.content}}（{{item.date}}）</button>
+</view>
+
+ <button size="default" type="default" bindtap="adding">+新增日记</button>
+
+</view>

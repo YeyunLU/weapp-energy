@@ -1,0 +1,11 @@
+/* pages/list/audio/audio.wxss */
+.txt{
+  text-align: center;
+  font-size: 60rpx;
+}
+.btn{
+  padding:20rpx 20rpx
+}
+.container {
+  padding: 80rpx 40rpx;
+}

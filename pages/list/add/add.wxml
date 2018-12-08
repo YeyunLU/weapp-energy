@@ -1,0 +1,14 @@
+
+    <view class="section__title">联系人称呼:</view>
+    <input bindinput="AddName" value="{{name}}" placeholder="张三" />
+
+
+   
+    <view class="section__title">联系人号码:</view>
+    <input bindinput="AddPhone" value="{{phone}}" placeholder="123456789" />
+
+
+  <view class="btn">
+  <button size="default" type="default" bindtap="baocun">保存</button>
+  </view>
+

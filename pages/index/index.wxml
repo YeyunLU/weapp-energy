@@ -1,0 +1,28 @@
+<!--pages/index/index.wxml-->
+
+<view class="container">
+
+  <view class="txt">
+   <text class="txt">道生一，一生二，二生三，三生万物。万物负阴而抱阳，冲气以为和。
+   
+   </text>
+  </view>
+
+  <view class="img">
+  <image src="../../images/taiji.jpg" mode="widthFix" style="width:100%"></image>
+  </view>
+
+  <view class="txt">
+  <text class="txt">
+  世间万物皆具能量，背阴而向阳。
+
+  更好地认知自己所处的能量场，才能有意识地激发自身的正能量，减少负能量对身体的损害。
+  
+  </text>
+  </view>
+
+<view class="btn">
+ <button size="default" type="default" bindtap="bfn">能量等级表</button>
+</view>
+
+</view>

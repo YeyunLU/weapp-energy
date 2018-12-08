@@ -1,0 +1,12 @@
+
+.txt{
+  font-size:20px;
+ text-align: center;
+}
+.video {
+  padding: 20rpx 20rpx;
+}
+.txts{
+   font-size:16px;
+   padding-left:250rpx;
+}

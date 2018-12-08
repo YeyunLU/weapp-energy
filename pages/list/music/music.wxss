@@ -1,0 +1,20 @@
+
+.container {
+  padding: 20rpx 40rpx;
+}
+
+.item {
+  background-color: #fff;
+  margin-top: 30rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+  height: 300rpx;
+  border: 1px solid rgba(153, 153, 153, 0.2);
+  box-shadow: 2px 2px 5px #999;
+  margin-bottom:30rpx;
+}
+
+
+.row {
+  margin-top: 20rpx;
+}

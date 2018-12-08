@@ -1,0 +1,22 @@
+/* pages/index/index.wxss */
+
+
+.container {
+  padding: 30rpx 20rpx;
+}
+
+.btn{
+   margin-top:30rpx;
+   background-color:bisque;
+}
+
+.img{
+  margin:20rpx 20rpx;
+
+}
+
+
+.txt {
+  margin-top: 30rpx;
+}
+

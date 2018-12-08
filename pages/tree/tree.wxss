@@ -1,0 +1,39 @@
+/* pages/index/index.wxss */
+
+
+.container {
+  padding: 80rpx 20rpx;
+}
+
+.iconfont {
+  font-size: 80rpx;
+  color: #4db0e6;
+}
+
+.img{
+  margin:20rpx 20rpx;
+
+}
+
+.item {
+  background-color: #fff;
+  margin-top: 100rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+  height: 300rpx;
+  border: 1px solid rgba(153, 153, 153, 0.2);
+  box-shadow: 2px 2px 5px #999;
+}
+
+.item-hover {
+  background-color: #4411;
+
+}
+
+.txt {
+  margin-top: 20rpx;
+}
+
+.row {
+  margin-top: 20rpx;
+}

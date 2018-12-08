@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tree/tree",
+    "pages/table/table",
+    "pages/list/test/test",
+    "pages/list/passage/passage",
+    "pages/list/result/result",
+    "pages/list/tool/tool",
+    "pages/list/improve/improve",
+    "pages/list/music/music",
+    "pages/list/diary/diary",
+    "pages/list/move/move",
+    "pages/list/add/add",
+    "pages/list/call/call",
+    "pages/list/audio/audio",
+    "pages/list/new/new"   
+  ],
+  "window": {
+    "navigationBarTextStyle": "White",
+    "navigationBarTitleText": "Energy",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "/images/icon_home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tree/tree",
+        "iconPath": "images/icon_tree.png",
+        "selectedIconPath": "/images/icon_tree_active.png",
+        "text": "目录"
+      }
+    ]
+  },
+  "plugins": {
+    "tencentvideo": {
+      "version": "1.1.8",
+      "provider": "wxa75efa648b60994b"
+    }
+  }
+  
+
+}

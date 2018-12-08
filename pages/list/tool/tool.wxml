@@ -1,0 +1,20 @@
+ <view class="row flex">
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="move">
+      <text class="iconfont icon-move"></text>
+      <text class="txt">舒缓运动</text>
+    </view>
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="music">
+      <text class="iconfont icon-music"></text>
+      <text class="txt">音乐冥想</text>
+    </view>
+  </view>
+  <view class="row flex">
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="call">
+      <text class="iconfont icon-call"></text>
+      <text class="txt">电话沟通</text>
+    </view>
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler" data-menu="diary">
+      <text class="iconfont icon-diary"></text>
+      <text class="txt">日记书写</text>
+    </view>
+  </view>

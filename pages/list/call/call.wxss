@@ -1,0 +1,4 @@
+/* pages/list/call/call.wxss */
+.btn{
+  padding:20rpx 20rpx
+}
